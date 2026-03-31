@@ -1,8 +1,8 @@
 class Exam {
     constructor(weight, correctAnswers) {
-        this.weight = weight; // [2, 4, 4]
-        this.correctAnswers = correctAnswers; //['a', 'd', 'b']
-        this.studentsAnswers = []; // [['a', 'b', 'c'], ['b', 'c', 'd'], ['a', 'a', 'a'], ['b', 'a', 'c']]
+        this.weight = weight; // Parâmetro de teste: [2, 4, 4]
+        this.correctAnswers = correctAnswers; // Parâmetro de teste: ['a', 'd', 'b']
+        this.studentsAnswers = []; // Parâmetro de teste: [['b', 'b', 'b'], ['a', 'b', 'c'], ['a', 'a', 'a'], ['a', 'd', 'b']]
 
     }
 
